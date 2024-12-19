@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selangor-SIF (School Intelligent Finder) System</title>
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/displayData.css" type="text/css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <header class="header">
+            <a href="#" class="logo"> Selangor-SIF System </a>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            
+            <nav class="navbar">
+                <a href="index.html" style="--i:0;" >Home</a>
+                <a href="about.html" style="--i:1;" >About</a>
+                <a href="dashboard.html" style="--i:2;" >Dashboard</a>
+                <a href="Contact Us.html" style="--i:4;" >Contact Us</a>
+            </nav>
+        </header>
+         <section>
+            <div class="layout-container">
+            <div class="inner-container">
+                <h2>Recommendation Gombak Primary School</h2>
+                <br>
+                <div class="enter-options-options">
+                    <style>
+                        th {
+                            font-weight: bold;
+                        }
+                    </style>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Grade</th>
+                                <th>District</th>
+                                <th>School Name</th>
+                                <th>Total Teachers</th>
+                                <th>Total Students</th>
+                                <th>Total Class</th>
+                                <th>Phone No.</th>
+                                <th>E-mail</th>
+                                <th>Address</th>
+                                <th>Locations</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) San Yuk</td>
+                                <td>137</td>
+                                <td>3447</td>
+                                <td>0</td>
+                                <td>03-60916391</td>
+                                <td>BBC7405@moe.edu.my</td>
+                                <td>Kampung Kenanga, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SJK(C)+San+Yuk/@3.3188199,101.5820236,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc425029485883:0x82f7c8c2999fd3e4!8m2!3d3.3188199!4d101.5820236!16s%2Fg%2F121_c5t6?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Selayang Baru</td>
+                                <td>68</td>
+                                <td>1573</td>
+                                <td>0</td>
+                                <td>03-61389089</td>
+                                <td>BBC7406@moe.edu.my</td>
+                                <td>Jalan 45, selayang Baru, 68100 Batu Caves</td>
+                                <td><a href="https://www.google.com/maps/place/SJK(C)+Selayang+Baru/@3.2548274,101.6673965,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc4723e6e75e61:0x379c0b85d1bee72e!8m2!3d3.2548274!4d101.6673965!16s%2Fg%2F122_gr0n?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Jenis Kebangsaan (Tamil) Bukit Darah</td>
+                                <td>18</td>
+                                <td>204</td>
+                                <td>0</td>
+                                <td>03-60381335</td>
+                                <td>BBD7454@moe.edu.my</td>
+                                <td>Jalan Kuala Selangor, 47000 Sungai Buloh, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SJKT+Bukit+Darah/@3.2200141,101.5037551,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5ac25f9bfe9f:0x847aac49a9b44d63!8m2!3d3.2200141!4d101.5037551!16s%2Fg%2F11bwp1s_1h?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Jenis Kebangsaan (Tamil) Rawang</td>
+                                <td>74</td>
+                                <td>1500</td>
+                                <td>0</td>
+                                <td>03-60916057</td>
+                                <td>No Record</td>
+                                <td>Jalan Kuala Garing, 48000 Rawang</td>
+                                <td><a href="https://www.google.com/maps/place/SJK+(T)+Rawang/@3.3173315,101.5688417,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc42f8edb1838d:0x6933c32b3a467872!8m2!3d3.3173315!4d101.5688417!16s%2Fg%2F1hc1wk2n3?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Kheow Bin</td>
+                                <td>99</td>
+                                <td>2353</td>
+                                <td>0</td>
+                                <td>03-61850993</td>
+                                <td>BBC7402@moe.edu.my</td>
+                                <td>Batu Caves, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Kheow+Bin+National+Type+Primary+School+(Chinese)/@3.2328236,101.6741267,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc470862324227:0xfa25f5836e29c92f!8m2!3d3.2328236!4d101.6741267!16s%2Fg%2F11c0rtyxl5?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah KebangsaanTaman Selayang 1</td>
+                                <td>56</td>
+                                <td>1023</td>
+                                <td>0</td>
+                                <td>03-61898813</td>
+                                <td>BBA7215@moe.edu.my</td>
+                                <td>Jalan Sungai Tua, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+(1)+Taman+Selayang/@3.2409663,101.6730102,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc471007392e15:0x4fdbd82e17d086e5!8m2!3d3.2409663!4d101.6730102!16s%2Fg%2F1z264p1c0?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Selayang 2</td>
+                                <td>138</td>
+                                <td>2359</td>
+                                <td>0</td>
+                                <td>03-6188 2337</td>
+                                <td>BBA7102@moe.edu.my</td>
+                                <td>Jalan Sg Tua, 68100 Batu Caves, Selangor&</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(2)+Taman+Selayang/@3.2409663,101.6730102,17z/data=!4m6!3m5!1s0x31cc471000d7efc9:0xc828d0f854145257!8m2!3d3.2416423!4d101.673242!16s%2Fg%2F1tfmf9k2?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Hulu Kelang</td>
+                                <td>Sekolah Kebangsaan Kuala Ampang 1</td>
+                                <td>18</td>
+                                <td>62</td>
+                                <td>0</td>
+                                <td>03-42523294</td>
+                                <td>BBB7303@moe.edu.my</td>
+                                <td>Jalan Awan, 68000 Ampang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+Kuala+Ampang/@3.1655448,101.7484217,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc37a134a3527b:0xbe5c038677ff8ba2!8m2!3d3.1655448!4d101.7484217!16s%2Fg%2F120tm9l3?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Hulu Kelang</td>
+                                <td>Sekolah Kebangsaan Kuala Ampang 2</td>
+                                <td>34</td>
+                                <td>124</td>
+                                <td>0</td>
+                                <td>03-42523294</td>
+                                <td>BBB7304@moe.edu.my</td>
+                                <td>Jalan Awan, 68000 Ampang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Kuala+Ampang+2/@3.1646883,101.7403189,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc37bb36be8713:0x37ef4321b6c9a35f!8m2!3d3.1646883!4d101.7403189!16s%2Fg%2F122tpstd?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Bandar Baru Selayang</td>
+                                <td>48</td>
+                                <td>817</td>
+                                <td>0</td>
+                                <td>03-61381802</td>
+                                <td>BBA7220@moe.edu.my</td>
+                                <td>Bandar Baru Selayang, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Bandar+Baru+Selayang/@3.2540805,101.6379932,15z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Bandar+Baru+Selayang!3m6!1s0x31cc46c3a38ed85f:0x6bc856c7ccea3035!8m2!3d3.2540805!4d101.6467479!15sCidTZWtvbGFoIEtlYmFuZ3NhYW4gQmFuZGFyIEJhcnUgU2VsYXlhbmeSAQZzY2hvb2zgAQA!16s%2Fg%2F121nm85c?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Bukit Rawang Jaya</td>
+                                <td>91</td>
+                                <td>1847</td>
+                                <td>0</td>
+                                <td>03-60935044</td>
+                                <td>BBA7231@moe.edu.my</td>
+                                <td>Jalan Bukit Rawang, Taman Bukit Rawang, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Bukit+Rawang+Jaya/@3.335972,101.581961,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc426f59921d7f:0x8724cd7ad21adba!8m2!3d3.335972!4d101.581961!16s%2Fg%2F1228lxpt?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Gombak 1</td>
+                                <td>11</td>
+                                <td>273</td>
+                                <td>7</td>
+                                <td>03-61896143</td>
+                                <td>BBB7301@moe.edu.my</td>
+                                <td>Km 8, Jalan Gombak, 53100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+Gombak/@3.2155821,101.711235,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc3876afc72f5b:0xf72eb9ae3efbce77!8m2!3d3.2155821!4d101.711235!16s%2Fg%2F1236h0kh?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Gombak  2</td>
+                                <td>53</td>
+                                <td>891</td>
+                                <td>0</td>
+                                <td>03-61890175</td>
+                                <td>BBB7302@moe.edu.my</td>
+                                <td>Km 8, Jalan Gombak, 53100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(2)+Gombak/@3.2154824,101.7117761,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc395827e3a14d:0x21793a8530366479!8m2!3d3.2154824!4d101.7117761!16s%2Fg%2F11y1l3vk34?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Gombak Setia</td>
+                                <td>80</td>
+                                <td>1541</td>
+                                <td>0</td>
+                                <td>03-61897851</td>
+                                <td>BBA7203@moe.edu.my</td>
+                                <td>Jalan Gombak Setia, 53100 Gombak, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Gombak+Setia/@3.2186881,101.7156231,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc38714e827d1d:0x5e4cee4829107810!8m2!3d3.2186881!4d101.7156231!16s%2Fg%2F120vn897?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Gombak Utara</td>
+                                <td>62</td>
+                                <td>1184</td>
+                                <td>0</td>
+                                <td>03-61893546</td>
+                                <td>BBA7204@moe.edu.my</td>
+                                <td>Km11, Jalan Gombak, 53100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Gombak+Utara/@3.2389644,101.7145512,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc47f7208024ff:0xacde1863b4bf6631!8m2!3d3.2389644!4d101.7145512!16s%2Fg%2F1235qmcp?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Hulu Kelang</td>
+                                <td>Sekolah Kebangsaan Hulu Kelang</td>
+                                <td>51</td>
+                                <td>877</td>
+                                <td>0</td>
+                                <td>03-4107 8662</td>
+                                <td>BBA7201@moe.edu.my</td>
+                                <td>Jalan Hulu Kelang, 68000 Ampang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Hulu+Kelang/@3.2000524,101.7611236,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc39d02df82dad:0x4c87bd2afc588010!8m2!3d3.2000524!4d101.7611236!16s%2Fg%2F1225_xh9?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Kepong</td>
+                                <td>30</td>
+                                <td>432</td>
+                                <td>0</td>
+                                <td>03-62756264</td>
+                                <td>BBA7206@moe.edu.my</td>
+                                <td>Institut Penyelidikan Perhutanan Malaysia, 52100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kepong,+Taman+Botani+Frim,+68100,+Selangor/@3.2306477,101.6351325,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc4661d0d4ca41:0x1aada03c2ad18962!8m2!3d3.2306477!4d101.6351325!16s%2Fg%2F120wd_cb?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Klang Gates</td>
+                                <td>32</td>
+                                <td>390</td>
+                                <td>0</td>
+                                <td>03-41084646</td>
+                                <td>No Record</td>
+                                <td>Jalan Genting Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sk+Klang+Gate/@3.2160585,101.7404024,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc398735e2c737:0xf29f221ea83c4f74!8m2!3d3.2160585!4d101.7404024!16s%2Fg%2F11gxhkh1_x?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Kuang</td>
+                                <td>90</td>
+                                <td>1550</td>
+                                <td>0</td>
+                                <td>03-60383780</td>
+                                <td>BBA7208@moe.edu.my</td>
+                                <td>Km 28, Jalan Kuang,48050 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kuang/@3.2295899,101.5360291,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc4528879ea02f:0xd58117cd838b45aa!8m2!3d3.2295899!4d101.5360291!16s%2Fg%2F1215clnf?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Hulu Kelang</td>
+                                <td>Sekolah Kebangsaan Lembah Keramat</td>
+                                <td>71</td>
+                                <td>1344</td>
+                                <td>0</td>
+                                <td>03-41082520</td>
+                                <td>BBA7217@moe.edu.my</td>
+                                <td>Jln Au 5C/6, Lembah Keramat, 54200 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Lembah+Keramat+National+School/@3.2023838,101.7575402,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc39cc3c89965d:0x905637c000d2dd39!8m2!3d3.2023838!4d101.7575402!16s%2Fg%2F121mdtqh?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Rawang</td>
+                                <td>65</td>
+                                <td>1034</td>
+                                <td>0</td>
+                                <td>03-60918453</td>
+                                <td>BBA7207@moe.edu.my</td>
+                                <td>Jalan Kuala Garing, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Rawang/@3.3056491,101.5610264,15z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Rawang!3m6!1s0x31cc42f891571e45:0xa037a5c2ad660122!8m2!3d3.3169926!4d101.569479!15sChlTZWtvbGFoIEtlYmFuZ3NhYW4gUmF3YW5nkgEGc2Nob29s4AEA!16s%2Fg%2F122h6_x_?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Selayang Baru 1</td>
+                                <td>86</td>
+                                <td>1668</td>
+                                <td>0</td>
+                                <td>03-61385618</td>
+                                <td>BBB7305@moe.edu.my</td>
+                                <td>Jalan 45, Selayang Baru, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+(1)+Selayang+Baru/@3.2547092,101.6659667,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc472144b384c1:0x24e872673bde6840!8m2!3d3.2547092!4d101.6659667!16s%2Fg%2F1222nsrg?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Selayang Baru 2</td>
+                                <td>69</td>
+                                <td>1264</td>
+                                <td>0</td>
+                                <td>03-61386333</td>
+                                <td>BBA7101@moe.edu.my</td>
+                                <td>Jalan 42, Selayang Baru, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Selayang+Baru+2/@3.256989,101.663977,16z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Selayang+Baru+2!3m6!1s0x31cc472144bbef6b:0xca71db1d6edfc13c!8m2!3d3.2538258!4d101.6662966!15sCiJTZWtvbGFoIEtlYmFuZ3NhYW4gU2VsYXlhbmcgQmFydSAykgERZWxlbWVudGFyeV9zY2hvb2zgAQA!16s%2Fg%2F1236mxyx?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Selayang Jaya</td>
+                                <td>48</td>
+                                <td>552</td>
+                                <td>0</td>
+                                <td>03-61385270</td>
+                                <td>BBA7219@moe.edu.my</td>
+                                <td>Jalan SJ 24, Taman Selayang Jaya, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Selayang+Jaya/@3.2375475,101.6485569,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc46f092f6916d:0x6a7c1773ad422de!8m2!3d3.2375475!4d101.6485569!16s%2Fg%2F121lsz_9?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Selayang Utama</td>
+                                <td>42</td>
+                                <td>693</td>
+                                <td>0</td>
+                                <td>03-61364020</td>
+                                <td>BBA7225@moe.edu.my</td>
+                                <td>Jalan Su40, Taman Selayang Utama, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Selayang+Utama/@3.2368244,101.6408503,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc46f376152c05:0x4d4cdf8153c4c20f!8m2!3d3.2368244!4d101.6408503!16s%2Fg%2F12377fz1?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Sg Kertas</td>
+                                <td>66</td>
+                                <td>1240</td>
+                                <td>0</td>
+                                <td>03-61851767</td>
+                                <td>BBA7226@moe.edu.my</td>
+                                <td>Jalan Sungai Tua, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Sungai+Kertas/@3.2593337,101.6849962,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Sg+Kertas!3m6!1s0x31cc4746327cf4e5:0x5fea635437036e99!8m2!3d3.2593337!4d101.6871849!15sChxTZWtvbGFoIEtlYmFuZ3NhYW4gU2cgS2VydGFzWh4iHHNla29sYWgga2ViYW5nc2FhbiBzZyBrZXJ0YXOSAQ5wcmltYXJ5X3NjaG9vbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSd2QwbGhObk5uUlJBQuABAA!16s%2Fg%2F120_4mk6?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Sg Serai</td>
+                                <td>25</td>
+                                <td>306</td>
+                                <td>0</td>
+                                <td>03-60371259</td>
+                                <td>BBA7209@moe.edu.my</td>
+                                <td>Kuang, 48050 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Sungai+Serai/@3.2811419,101.4075698,11z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Sg+Serai!3m6!1s0x31cc449aeaaaaaab:0xc3a91a6e767584b6!8m2!3d3.2811419!4d101.5476455!15sChtTZWtvbGFoIEtlYmFuZ3NhYW4gU2cgU2VyYWmSAQZzY2hvb2zgAQA!16s%2Fg%2F12163_v2?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Rendah Agama Kg Sungai Tua Baharu</td>
+                                <td>86</td>
+                                <td>1785</td>
+                                <td>0</td>
+                                <td>03-61897052</td>
+                                <td>No Record</td>
+                                <td>Jalan Melati Kg Sg Tua Baharu, 68100 Batu Caves</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Rendah+Agama+Kg+Sungai+Tua+Baharu/@3.2738702,101.6198794,12z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Sg+Tua+Baru!3m6!1s0x31cc473cf0bcdb13:0x9207e0163abacffe!8m2!3d3.2534347!4d101.6753135!15sCh5TZWtvbGFoIEtlYmFuZ3NhYW4gU2cgVHVhIEJhcnWSAQ5wcmltYXJ5X3NjaG9vbOABAA!16s%2Fg%2F1xpwg8nr?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Sinaran Budi</td>
+                                <td>101</td>
+                                <td>2100</td>
+                                <td>0</td>
+                                <td>03-60916480</td>
+                                <td>BBB7306@moe.edu.my</td>
+                                <td>Jalan Kuala Garing, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Sinaran+Budi/@3.3145763,101.5688681,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc42ff377370b1:0x4e578bdaf7dd20bb!8m2!3d3.3145763!4d101.5688681!16s%2Fg%2F12176hbq?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Sungai Pusu</td>
+                                <td>69</td>
+                                <td>1425</td>
+                                <td>0</td>
+                                <td>03-61862639</td>
+                                <td>BBA7228@moe.edu.my</td>
+                                <td>Km.11, Jalan Gombak, 53100 Gombak, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Sungai+Pusu/@3.2374556,101.7156125,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc47f7208024ff:0xee42f0770a2dd47e!8m2!3d3.2374556!4d101.7156125!16s%2Fg%2F122t6727?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Hulu Kelang</td>
+                                <td>Sekolah Kebangsaan Taman Bukit Indah</td>
+                                <td>91</td>
+                                <td>1859</td>
+                                <td>0</td>
+                                <td>03-42808317</td>
+                                <td>BBA7232@moe.edu.my</td>
+                                <td>Taman Bukit Indah, 68000 Ampang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Bukit+Indah,+Selangor/@3.156389,101.7756079,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc37218b5b36b5:0x767b7ceeb42c0ffa!8m2!3d3.156389!4d101.7756079!16s%2Fg%2F122y5syv?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Taman Desa</td>
+                                <td>89</td>
+                                <td>821</td>
+                                <td>0</td>
+                                <td>03-60937562</td>
+                                <td>BBA7230@moe.edu.my</td>
+                                <td>Bandar Country Homes, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Desa/@3.1069476,101.6201928,12z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Taman+Desa!3m6!1s0x31cc4a1be328d5c5:0x4ad1bfdfa6bd1147!8m2!3d3.1069476!4d101.6902306!15sCh1TZWtvbGFoIEtlYmFuZ3NhYW4gVGFtYW4gRGVzYZIBBnNjaG9vbOABAA!16s%2Fg%2F121yn86k?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Ehsan</td>
+                                <td>55</td>
+                                <td>725</td>
+                                <td>0</td>
+                                <td>03-62762768</td>
+                                <td>BBA7213@moe.edu.my</td>
+                                <td>Jalan 25 , Desa Jaya, 52100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Taman+Ehsan/@3.22008,101.6304901,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc466f73062dd7:0x633e334a770473b8!8m2!3d3.22008!4d101.6304901!16s%2Fg%2F122w1fcc?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Keramat 1</td>
+                                <td>39</td>
+                                <td>424</td>
+                                <td>0</td>
+                                <td>03-42515921</td>
+                                <td>BBA7211@moe.edu.my</td>
+                                <td>Jalan Enggang Timur 1, 54200 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Datok+Keramat+1/@3.1662608,101.7304234,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc37bf52b36d09:0xfb1fa1fdd10d6eba!8m2!3d3.1662608!4d101.7304234!16s%2Fg%2F122d3j8t?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Hulu Kelang</td>
+                                <td>Sekolah Kebangsaan Taman Keramat 2</td>
+                                <td>86</td>
+                                <td>1267</td>
+                                <td>0</td>
+                                <td>03-42573546</td>
+                                <td>BBA7103@moe.edu.my</td>
+                                <td>Jalan Enggang Timur 1, 54200 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+2+TAMAN+KERAMAT/@3.1662608,101.7304234,15z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Taman+Keramat+2!3m6!1s0x31cc370064077e43:0xed90d26428813836!8m2!3d3.1700344!4d101.742377!15sCiJTZWtvbGFoIEtlYmFuZ3NhYW4gVGFtYW4gS2VyYW1hdCAykgERZWxlbWVudGFyeV9zY2hvb2zgAQA!16s%2Fg%2F11w3ft25k3?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Taman Melawati</td>
+                                <td>73</td>
+                                <td>1519</td>
+                                <td>0</td>
+                                <td>03-41072763</td>
+                                <td>BBA7214@moe.edu.my</td>
+                                <td>Jalan F-13, Taman Melawati, 53100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Melawati,+Taman+Melawati,+53100+Ampang,+Selangor/@3.2251702,101.7468233,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc38540266a963:0xc934e42b0848f9d4!8m2!3d3.2251702!4d101.7468233!16s%2Fg%2F120svln8?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Taman Melawati 2</td>
+                                <td>115</td>
+                                <td>2127</td>
+                                <td>0</td>
+                                <td>03-41086619</td>
+                                <td>BBA7224@moe.edu.my</td>
+                                <td>Taman Melawati, 53100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Melawati+2/@3.2125577,101.7525306,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc39b4d4f08851:0x4f86a6f69f6439d6!8m2!3d3.2125577!4d101.7525306!16s%2Fg%2F1220qvcw?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Kebangsaan Taman Permata</td>
+                                <td>52</td>
+                                <td>726</td>
+                                <td>0</td>
+                                <td>03-41077259</td>
+                                <td>BBA7222@moe.edu.my</td>
+                                <td>Jalan Permata 9,Taman Permata, Hulu Kelang, 53300 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Taman+Permata/@3.2057526,101.7477838,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc383411a9f0cb:0xc12603a3d9a80b7a!8m2!3d3.2057526!4d101.7477838!16s%2Fg%2F1213vg7t?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Samudra</td>
+                                <td>51</td>
+                                <td>827</td>
+                                <td>0</td>
+                                <td>03-61866649</td>
+                                <td>BBA7227@moe.edu.my</td>
+                                <td>Jalan Samudra Barat 4, Taman Samudra, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Taman+Samudera/@3.233882,101.6930878,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc47771aafb563:0xc7c0d413099a8df3!8m2!3d3.233882!4d101.6930878!16s%2Fg%2F1tm8h24d?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Selasih</td>
+                                <td>79</td>
+                                <td>1472</td>
+                                <td>0</td>
+                                <td>03-61880307</td>
+                                <td>BBA7221@moe.edu.my</td>
+                                <td>Taman Selasih Fasa 2, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Selasih/@4.2986226,101.1224901,8z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Taman+Selasih!3m6!1s0x31cc4777f20b415f:0xd73dc4aaa1f617fb!8m2!3d3.23128!4d101.6947501!15sCiBTZWtvbGFoIEtlYmFuZ3NhYW4gVGFtYW4gU2VsYXNpaFoiIiBzZWtvbGFoIGtlYmFuZ3NhYW4gdGFtYW4gc2VsYXNpaJIBEWVsZW1lbnRhcnlfc2Nob29smgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5VTTFscVVtbFJSUkFC4AEA!16s%2Fg%2F1hh_n_63c?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Seri Gombak</td>
+                                <td>136</td>
+                                <td>2000</td>
+                                <td>0</td>
+                                <td>03-61894886</td>
+                                <td>BBA7216@moe.edu.my</td>
+                                <td>Jalan Sg 1/1, Taman Seri Gombak, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Taman+Seri+Gombak/@3.2433053,101.6983245,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc47644d310263:0xdcfc248fb3c26598!8m2!3d3.2433053!4d101.6983245!16s%2Fg%2F121c542q?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Seri Gombak 2</td>
+                                <td>198</td>
+                                <td>3990</td>
+                                <td>0</td>
+                                <td>03-61894886</td>
+                                <td>BBA7235@moe.edu.my</td>
+                                <td>Jalan SG 1/1 Taman Seri Gombak, 68100 Batu Caves</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Seri+Gombak+2,+7,+Jalan+SG+1%2F19,+Taman+Sri+Gombak,+68100+Batu+Caves,+Selangor/@3.2424816,101.6989126,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc4764f87f9a01:0x2bcb509121936625!8m2!3d3.2424816!4d101.6989126!16s%2Fg%2F122vlsm7?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Batu</td>
+                                <td>Sekolah Menengah Kebangsaan Hillcrest</td>
+                                <td>119</td>
+                                <td>2351</td>
+                                <td>0</td>
+                                <td>03-61884777</td>
+                                <td>BEA7608@moe.edu.my</td>
+                                <td>Taman Seri Gombak, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SMK+Hillcrest/@3.2444861,101.7081106,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc389e0b1cd579:0x1911eefbbb1ed4c0!8m2!3d3.2444861!4d101.7081106!16s%2Fm%2F051z08y?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Kuang</td>
+                                <td>20</td>
+                                <td>330</td>
+                                <td>0</td>
+                                <td>03-60372936</td>
+                                <td>BBC7403@moe.edu.my</td>
+                                <td>Kampung Baru Kuang, 48050 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SJK(C)+Kuang/@3.2663557,101.5330081,14z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Kuang!3m6!1s0x31cc4493ec3380dd:0xe11139a32be6d68d!8m2!3d3.255563!4d101.5540599!15sCiVTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIEt1YW5nkgERZWxlbWVudGFyeV9zY2hvb2zgAQA!16s%2Fg%2F1td2wzm6?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Setapak</td>
+                                <td>Sekolah Jenis Kebangsaan (Tamil) Taman Melawati</td>
+                                <td>23</td>
+                                <td>310</td>
+                                <td>0</td>
+                                <td>03-41053136</td>
+                                <td>BBD7456@moe.edu.my</td>
+                                <td>Jln Melawati 5, Tmn Melawati, 53100 Kuala Lumpur, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SJK+(T)+Taman+Melawati/@3.2162109,101.7505176,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc384ceb6ec30f:0xeb687e19da3d8661!8m2!3d3.2162109!4d101.7505176!16s%2Fg%2F122bg3f9?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Bandar Baru Selayang 2</td>
+                                <td>28</td>
+                                <td>475</td>
+                                <td>0</td>
+                                <td>03-61374800</td>
+                                <td>BBA7241@moe.edu.my</td>
+                                <td>Persiaran 2, Fasa 1C, Bandar Baru Selayang, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Bandar+Baru+Selayang+(2)/@3.2601521,101.6572801,16z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Bandar+Baru+Selayang+2!3m6!1s0x31cc4727fb16e6e9:0x304c18e196cf450d!8m2!3d3.2601521!4d101.6616575!15sCilTZWtvbGFoIEtlYmFuZ3NhYW4gQmFuZGFyIEJhcnUgU2VsYXlhbmcgMpIBBnNjaG9vbOABAA!16s%2Fg%2F120_95v9?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Bandar Tasik Puteri</td>
+                                <td>135</td>
+                                <td>3450</td>
+                                <td>0</td>
+                                <td>03-60342978</td>
+                                <td>BBA7238@moe.edu.my</td>
+                                <td>Bandar Tasik Puteri, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Bandar+Tasik+Puteri/@3.2855727,101.4754367,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5c8c00000001:0xaeb28c2542dec441!8m2!3d3.2855727!4d101.4754367!16s%2Fg%2F120xp89t?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Bandar Tasik Puteri 2</td>
+                                <td>108</td>
+                                <td>1612</td>
+                                <td>0</td>
+                                <td>03-60342595</td>
+                                <td>BBA7242@moe.edu.my</td>
+                                <td>Bandar Tasik Puteri, 48000 Rawang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tasik+Puteri+2/@3.2855727,101.4754367,17z/data=!4m6!3m5!1s0x31cc5c7ca81c8bad:0x5eaaaeba8a75be7e!8m2!3d3.2809571!4d101.4745343!16s%2Fg%2F120s_52l?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Bukit Rahman Putra</td>
+                                <td>80</td>
+                                <td>1338</td>
+                                <td>0</td>
+                                <td>03-61562454</td>
+                                <td>BBA7233@moe.edu.my</td>
+                                <td>Bukit Rahman Putra, 47000 Sungai Buloh, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Bukit+Rahman+Putra/@3.2278917,101.5524124,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc451952e02dfd:0x713112966443066b!8m2!3d3.2278917!4d101.5524124!16s%2Fg%2F120xzr67?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Kebangsaan Taman Desa 2</td>
+                                <td>73</td>
+                                <td>1208</td>
+                                <td>0</td>
+                                <td>03-60917918</td>
+                                <td>BBA7236@moe.edu.my</td>
+                                <td>Bandar Country Homes, 48000 Rawang, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/SEKOLAH+KEBANGSAAN+TAMAN+DESA+2/@3.3300795,101.5226231,16z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Taman+Desa+2!3m6!1s0x31cc43003ddfcd27:0x5d4c5d3870583c6!8m2!3d3.3300795!4d101.5270005!15sCh9TZWtvbGFoIEtlYmFuZ3NhYW4gVGFtYW4gRGVzYSAykgEOcHJpbWFyeV9zY2hvb2zgAQA!16s%2Fg%2F1211cf3q?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Batu</td>
+                                <td>Sekolah Kebangsaan Taman Prima Selayang</td>
+                                <td>29</td>
+                                <td>440</td>
+                                <td>0</td>
+                                <td>03-61374800</td>
+                                <td>BBA7240@moe.edu.my</td>
+                                <td>Off Jalan Melati 7, Taman Sri Melati, 68100 Batu Caves, Selangor</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Prima+Selayang,+Taman+Seri+Melati,+68100+Batu+Caves,+Selangor/@3.2440607,101.6560473,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc46e38c37f1ff:0xc31afabee2b28dfe!8m2!3d3.2440607!4d101.6560473!16s%2Fg%2F122q4wdm?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Rawang</td>
+                                <td>Sekolah Rendah Jenis Kebangsaan (Tamil) Kuang</td>
+                                <td>13</td>
+                                <td>145</td>
+                                <td>0</td>
+                                <td>03-60372271</td>
+                                <td>No Record</td>
+                                <td>Kuang, 48050 Rawang</td>
+                                <td>No Record</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+             </div>
+           </section>
+        </body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+    <footer>
+        <p>&copy; 2024 Selangor-SIF (School Intelligent Finder) System. All rights reserved.</p>
+    </footer>
+</html>

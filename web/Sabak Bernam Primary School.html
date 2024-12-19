@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selangor-SIF (School Intelligent Finder) System</title>
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/displayData.css" type="text/css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <header class="header">
+            <a href="#" class="logo"> Selangor-SIF System </a>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            
+            <nav class="navbar">
+                <a href="index.html" style="--i:0;" >Home</a>
+                <a href="about.html" style="--i:1;" >About</a>
+                <a href="dashboard.html" style="--i:2;" >Dashboard</a>
+                <a href="Contact Us.html" style="--i:4;" >Contact Us</a>
+            </nav>
+        </header>
+         <section>
+            <div class="layout-container">
+            <div class="inner-container">
+                <h2>Recommendation Sabak Bernam Primary School</h2>
+                <br>
+                <div class="enter-options-options">
+                    <style>
+                        th {
+                            font-weight: bold;
+                        }
+                    </style>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Grade</th>
+                                        <th>District</th>
+                                        <th>School Name</th>
+                                        <th>Total Teachers</th>
+                                        <th>Total Students</th>
+                                        <th>Total Class</th>
+                                        <th>Phone No.</th>
+                                        <th>E-mail</th>
+                                        <th>Address</th>
+                                        <th>Locations</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Lum Hua</td>
+                                        <td>26</td>
+                                        <td>310</td>
+                                        <td>0</td>
+                                        <td>03-32161318</td>
+                                        <td>BBC6032@moe.edu.my</td>
+                                        <td>Jalan Raja Chulan, Pekan Sabak Bernam, 45200 Sabak, Selangor</td>
+                                        <td><a href="https://www.google.com/maps/place/SJK+(C)+Lum+Hua+Sabak+Bernam/@3.768297,100.9832221,17z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Lum+Hua!3m6!1s0x31cb67596ba3ae37:0x510b47280af32d13!8m2!3d3.768297!4d100.9854108!15sCidTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIEx1bSBIdWGSAQZzY2hvb2zgAQA!16s%2Fg%2F11bxdzj5lt?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sungai Bendena</td>
+                                        <td>Sekolah Kebangsaan Bagan Terap</td>
+                                        <td>34</td>
+                                        <td>245</td>
+                                        <td>11</td>
+                                        <td>03-32165143</td>
+                                        <td>BBA6010@moe.edu.my</td>
+                                        <td>Kampung Bagan Terap, 45300 Sungai Besar</td>
+                                        <td>No Record</td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Batu 38</td>
+                                        <td>34</td>
+                                        <td>441</td>
+                                        <td>12</td>
+                                        <td>03-32161219</td>
+                                        <td>BBA6014@moe.edu.my</td>
+                                        <td>Kampung Batu 38, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Batu+38/@3.7530473,100.9565481,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5e750909f4e3:0xd80ba451dc37aae4!8m2!3d3.7530473!4d100.9565481!16s%2Fg%2F121mq89f?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sungai Bendena</td>
+                                        <td>Sekolah Kebangsaan Binjai Jaya</td>
+                                        <td>40</td>
+                                        <td>514</td>
+                                        <td>16</td>
+                                        <td>04-32162208</td>
+                                        <td>BBA6032@moe.edu.my</td>
+                                        <td>Parit 16 Sungai Panjang, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Binjai+Jaya/@3.7164249,101.1258832,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb630645e14d39:0x7987ff4760a3eb39!8m2!3d3.7164249!4d101.1258832!16s%2Fg%2F1227pxzq?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Kampong Banting</td>
+                                        <td>26</td>
+                                        <td>202</td>
+                                        <td>9</td>
+                                        <td>03-32162085</td>
+                                        <td>BBA6024@moe.edu.my</td>
+                                        <td>Jln Masjid Kg Banting, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kampung+Banting/@3.7583429,100.923954,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5c262b845f4b:0xfcde5068b81ed26a!8m2!3d3.7583429!4d100.923954!16s%2Fg%2F122cc2_x?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Khir Johari</td>
+                                        <td>45</td>
+                                        <td>351</td>
+                                        <td>15</td>
+                                        <td>03-32161285</td>
+                                        <td>BBB6028@moe.edu.my</td>
+                                        <td>Jalan Raja Chulan, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Khir+Johari/@3.7692201,99.8663187,8z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Khir+Johari!3m6!1s0x31cb675950c2d179:0x39dcf7fa97809a19!8m2!3d3.7692201!4d100.9869242!15sCh5TZWtvbGFoIEtlYmFuZ3NhYW4gS2hpciBKb2hhcmmSAQZzY2hvb2zgAQA!16s%2Fg%2F121wnhd4?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Parit 4</td>
+                                        <td>25</td>
+                                        <td>180</td>
+                                        <td>6</td>
+                                        <td>03-32246206</td>
+                                        <td>BBA6006@moe.edu.my</td>
+                                        <td>Parit 4 Jalan Pekan Selasa Sungai Haji Dorani, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Parit+4/@3.6613585,100.9793625,12z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Parit+4!3m6!1s0x31cc9e17d2869243:0x330fb295436299b6!8m2!3d3.6613585!4d101.0494003!15sChpTZWtvbGFoIEtlYmFuZ3NhYW4gUGFyaXQgNJIBBnNjaG9vbOABAA!16s%2Fg%2F1211cf3k?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Parit 6</td>
+                                        <td>33</td>
+                                        <td>396</td>
+                                        <td>14</td>
+                                        <td>03-32243953</td>
+                                        <td>BBA6007@moe.edu.my</td>
+                                        <td>Parit 6 Barat, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Parit+6/@3.7125239,101.0044571,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Parit+6!3m6!1s0x31cb605f03871223:0xb0a2c43cd1bb3684!8m2!3d3.7125239!4d101.0066458!15sChpTZWtvbGFoIEtlYmFuZ3NhYW4gUGFyaXQgNpIBDnByaW1hcnlfc2Nob29s4AEA!16s%2Fg%2F121zcs1r?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Kebangsaan Parit 9</td>
+                                        <td>30</td>
+                                        <td>307</td>
+                                        <td>24</td>
+                                        <td>03-32412028</td>
+                                        <td>BBA6029@moe.edu.my</td>
+                                        <td>Jalan Parit 9, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Parit+9/@3.5620271,101.105884,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc9b8fa5f189a1:0x39fe8ce81e60765a!8m2!3d3.5620271!4d101.105884!16s%2Fg%2F12314fh_?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Kebangsaan Parit Baharu</td>
+                                        <td>31</td>
+                                        <td>333</td>
+                                        <td>13</td>
+                                        <td>03-32136971</td>
+                                        <td>BBA6019@moe.edu.my</td>
+                                        <td>Jalan Besar, Kampung Parit Baharu, 45100 Sungai Air Tawar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Parit+Baharu/@3.8156433,100.8444081,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5ae0235c702f:0x1f9d77bd8cd4796a!8m2!3d3.8156433!4d100.8444081!16s%2Fg%2F121tndd7?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Kebangsaan Pasir Panjang</td>
+                                        <td>39</td>
+                                        <td>540</td>
+                                        <td>16</td>
+                                        <td>03-32410582</td>
+                                        <td>BBA6030@moe.edu.my</td>
+                                        <td>Jalan Sekolah, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Pasir+Panjang/@3.5663785,99.9507827,8z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Pasir+Panjang!3m6!1s0x31cc9bd87156f3b5:0xd11d117de30466ec!8m2!3d3.5663785!4d101.0713882!15sCiBTZWtvbGFoIEtlYmFuZ3NhYW4gUGFzaXIgUGFuamFuZ5IBBnNjaG9vbOABAA!16s%2Fg%2F122ntvg1?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Kebangsaan Sekendi</td>
+                                        <td>23</td>
+                                        <td>204</td>
+                                        <td>7</td>
+                                        <td>03-32163468</td>
+                                        <td>BBA6017@moe.edu.my</td>
+                                        <td>Km 7,Jalan Sekendi, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Sekendi/@3.727573,100.9383509,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5e59ad2e522d:0x4ec2aaa51b96312!8m2!3d3.727573!4d100.9383509!16s%2Fg%2F121s4h5t?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sungai Bendena</td>
+                                        <td>Sekolah Kebangsaan Sapintas</td>
+                                        <td>18</td>
+                                        <td>204</td>
+                                        <td>6</td>
+                                        <td>03-32164648</td>
+                                        <td>BBA6023@moe.edu.my</td>
+                                        <td>Batu 4, Kg Sapintas, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sk+Sapintas/@3.780462,101.0284957,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb66e3cea0a3eb:0xa80392f5a14b17e8!8m2!3d3.780462!4d101.0284957!16s%2Fg%2F121h81h5?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Seri Bahagia</td>
+                                        <td>32</td>
+                                        <td>403</td>
+                                        <td>12</td>
+                                        <td>03-32242453</td>
+                                        <td>BBA6008@moe.edu.my</td>
+                                        <td>Parit 9, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Seri+Bahagia/@3.7286868,101.0292311,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb611c319bb6a3:0xdaddde9e7f071925!8m2!3d3.7286868!4d101.0292311!16s%2Fg%2F120pt7b_?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Kebangsaan Seri Cempaka</td>
+                                        <td>16</td>
+                                        <td>128</td>
+                                        <td>7</td>
+                                        <td>03-32137011</td>
+                                        <td>BBA6027@moe.edu.my</td>
+                                        <td>Kampung Sungai Apong, 45100 Sungai Air Tawar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Seri+Cempaka,+Selangor/@3.7983024,100.6892869,11z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Seri+Cempaka!3m6!1s0x31cb5af66b1671dd:0x5e5d912b76794580!8m2!3d3.7983024!4d100.8293626!15sCh9TZWtvbGFoIEtlYmFuZ3NhYW4gU2VyaSBDZW1wYWthkgEGc2Nob29s4AEA!16s%2Fg%2F1230ph3f?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Seri Makmur</td>
+                                        <td>86</td>
+                                        <td>1357</td>
+                                        <td>46</td>
+                                        <td>03-32242224</td>
+                                        <td>BBA6001@moe.edu.my</td>
+                                        <td>Jalan Parit 1 Barat, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Seri+Makmur/@3.6822735,100.9200107,12z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Seri+Makmur!3m6!1s0x31cb6004ec1d1103:0x8b9f273d4fa1dc51!8m2!3d3.6822735!4d100.9900485!15sCh5TZWtvbGFoIEtlYmFuZ3NhYW4gU2VyaSBNYWttdXJaICIec2Vrb2xhaCBrZWJhbmdzYWFuIHNlcmkgbWFrbXVykgEGc2Nob29smgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5zZGpoNWFsOW5SUkFC4AEA!16s%2Fg%2F120hhv5w?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Seri Mawar</td>
+                                        <td>34</td>
+                                        <td>324</td>
+                                        <td>11</td>
+                                        <td>03-32138035</td>
+                                        <td>BBA6021@moe.edu.my</td>
+                                        <td>Jalan Sekolah, 45100 Sungai Air Tawar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Seri+Mawar/@3.8410806,100.8988881,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb43522d78ba37:0x48bbea205c1f3f2!8m2!3d3.8410806!4d100.8988881!16s%2Fg%2F1216fsb8?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Kebangsaan Seri Sekinchan</td>
+                                        <td>42</td>
+                                        <td>489</td>
+                                        <td>18</td>
+                                        <td>03-32410569</td>
+                                        <td>BBB6030@moe.edu.my</td>
+                                        <td>Jalan Parit 6, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Seri+Sekinchan/@3.5105868,101.1011149,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc909c46dbcf9f:0xa906ae8a0f90406d!8m2!3d3.5105868!4d101.1011149!16s%2Fg%2F1tk1khfs?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Sri Utama</td>
+                                        <td>60</td>
+                                        <td>736</td>
+                                        <td>30</td>
+                                        <td>03-32242278</td>
+                                        <td>BEA8624@moe.edu.my</td>
+                                        <td>Jalan 227B/51A, 46100 Petaling Jaya</td>
+                                        <td>No Record</td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Kebangsaan Simpang 4 Bno</td>
+                                        <td>23</td>
+                                        <td>259</td>
+                                        <td>8</td>
+                                        <td>03-32136161</td>
+                                        <td>BBA6018@moe.edu.my</td>
+                                        <td>Simpang 4, Bagan Nakhoda Omar, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Simpang+4,+BNO/@3.7733173,100.8814591,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5bfc9dcd3517:0xd55793392c52beb3!8m2!3d3.7733173!4d100.8814591!16s%2Fg%2F11jsnfcc97?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Simpang Lima</td>
+                                        <td>44</td>
+                                        <td>618</td>
+                                        <td>18</td>
+                                        <td>03-32243342</td>
+                                        <td>BBA6003@moe.edu.my</td>
+                                        <td>Simpang Lima, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Simpang+Lima/@3.625627,100.7735179,10z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Simpang+Lima!3m6!1s0x31cc9e8de7abc9a5:0xd3b9f38dd1d4bfd8!8m2!3d3.625627!4d101.0536693!15sCh9TZWtvbGFoIEtlYmFuZ3NhYW4gU2ltcGFuZyBMaW1hkgEGc2Nob29s4AEA!16s%2Fm%2F02rq8vx?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Sg Hj Dorani</td>
+                                        <td>33</td>
+                                        <td>408</td>
+                                        <td>14</td>
+                                        <td>03-32243967</td>
+                                        <td>BBA6002@moe.edu.my</td>
+                                        <td>Pekan Sg Hj Dorani, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Sungai+Haji+Dorani/@3.6445641,101.0250885,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc9fab21878d31:0x55f520693e6ee0d8!8m2!3d3.6445641!4d101.0250885!16s%2Fg%2F1pv2hzcqz?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Kebangsaan Sg Leman</td>
+                                        <td>48</td>
+                                        <td>583</td>
+                                        <td>24</td>
+                                        <td>03-32412980</td>
+                                        <td>BBA6028@moe.edu.my</td>
+                                        <td>Tali Air 7, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Sungai+Leman/@3.5328179,101.0882936,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc9a16662eeba9:0x8cefde7db2c80e3c!8m2!3d3.5328179!4d101.0882936!16s%2Fg%2F1v3dpmvn?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Sg Limau</td>
+                                        <td>34</td>
+                                        <td>426</td>
+                                        <td>12</td>
+                                        <td>03-32243320</td>
+                                        <td>BBA6005@moe.edu.my</td>
+                                        <td>Kampung Sungai Limau, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Sungai+Limau/@3.661076,99.8838806,8z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Sg+Limau!3m6!1s0x31cc9fc214e9e61d:0x96341f926d38c5e1!8m2!3d3.661076!4d101.0044861!15sChtTZWtvbGFoIEtlYmFuZ3NhYW4gU2cgTGltYXWSAQZzY2hvb2zgAQA!16s%2Fg%2F122092_n?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Kebangsaan Sungai Nibong</td>
+                                        <td>31</td>
+                                        <td>387</td>
+                                        <td>13</td>
+                                        <td>03-32411189</td>
+                                        <td>BBA6031@moe.edu.my</td>
+                                        <td>Jalan Parit 12, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Sungai+Nibong/@3.5984539,96.5898132,6z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Sungai+Nibong!3m6!1s0x31cc9c01c2db0723:0x44bba457a355cf5!8m2!3d3.5984539!4d101.0722351!15sCiBTZWtvbGFoIEtlYmFuZ3NhYW4gU3VuZ2FpIE5pYm9uZ5IBBnNjaG9vbOABAA!16s%2Fg%2F122zq9nv?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Kebangsaan Teluk Ru</td>
+                                        <td>21</td>
+                                        <td>104</td>
+                                        <td>10</td>
+                                        <td>03-32138168</td>
+                                        <td>BBA6026@moe.edu.my</td>
+                                        <td>Jalan Parit Baru, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Teluk+Ru/@3.7918531,100.8549895,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5ba8cb5ff155:0xd8bc0e8e4b52f551!8m2!3d3.7918531!4d100.8549895!16s%2Fg%2F122rd79n?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Sungai Bendena</td>
+                                        <td>Sekolah Kebangsaan Tok Khalifah</td>
+                                        <td>29</td>
+                                        <td>286</td>
+                                        <td>12</td>
+                                        <td>03-32162848</td>
+                                        <td>BBA6009@moe.edu.my</td>
+                                        <td>Parit 13, Jln. Sungai Panjang, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tok+Khalifah/@3.7283485,101.0733827,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb63d8cec1b0a7:0xf116a4014ba2fb83!8m2!3d3.7283485!4d101.0733827!16s%2Fg%2F123199xm?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Sin Min</td>
+                                        <td>51</td>
+                                        <td>1007</td>
+                                        <td>27</td>
+                                        <td>03-32241257</td>
+                                        <td>BBC6036@moe.edu.my</td>
+                                        <td>Jalan Panchang Bedena, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Sin+Min/@3.6767101,98.739533,7z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Sin+Min!3m6!1s0x31cb60000afb2fa5:0xdd56a4500e5fb124!8m2!3d3.6767101!4d100.9807439!15sCidTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIFNpbiBNaW6SAQZzY2hvb2zgAQA!16s%2Fg%2F1hc4kg37k?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>A</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Yoke Kuan</td>
+                                        <td>59</td>
+                                        <td>1245</td>
+                                        <td>32</td>
+                                        <td>03-32410173</td>
+                                        <td>BBC6038@moe.edu.my</td>
+                                        <td>Jalan Gereja, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/SJK(C)+Yoke+Kuan/@3.5101552,101.1041916,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc909cbb0bff4d:0x1d0f1e0b0b578154!8m2!3d3.5101552!4d101.1041916!16s%2Fg%2F120kbf31?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Hai Ping</td>
+                                        <td>8</td>
+                                        <td>112</td>
+                                        <td>6</td>
+                                        <td>03-32242693</td>
+                                        <td>BBC6031@moe.edu.my</td>
+                                        <td>Bagan Sungai Burung, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(+C+)+Hai+Ping/@3.6927988,100.9376749,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5f9e4e5fef73:0x6c695148dd10bf4e!8m2!3d3.6927988!4d100.9376749!16s%2Fg%2F121tyk9t?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Moon Teck</td>
+                                        <td>6</td>
+                                        <td>15</td>
+                                        <td>6</td>
+                                        <td>03-32136319</td>
+                                        <td>BBC6033@moe.edu.my</td>
+                                        <td>Jalan Moon Teck, 45100 Sungai Air Tawar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(C)+Moon+Teck/@3.8423646,100.8950176,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5d7b0328511b:0xd077d7cfcaa35fac!8m2!3d3.8423646!4d100.8950176!16s%2Fg%2F122zvx33?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Phooi Tee</td>
+                                        <td>13</td>
+                                        <td>90</td>
+                                        <td>6</td>
+                                        <td>03-32162051</td>
+                                        <td>BBC6034@moe.edu.my</td>
+                                        <td>Sungai Pulai, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/SJKC+Phooi+Tee+%E5%9F%B9%E6%99%BA%E5%8D%8E%E5%B0%8F/@3.7301453,100.781835,11z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Phooi+Tee!3m6!1s0x31cb5e5684194d01:0xde1d889f9452f20a!8m2!3d3.7301453!4d100.9219107!15sCilTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIFBob29pIFRlZZIBBnNjaG9vbOABAA!16s%2Fg%2F11b6cnt1gn?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Poay Chneh</td>
+                                        <td>10</td>
+                                        <td>89</td>
+                                        <td>7</td>
+                                        <td>03-32136100</td>
+                                        <td>BBC6035@moe.edu.my</td>
+                                        <td>Jalan Bagan Sg. Lang, 45100 Sungai Air Tawar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Poay+Chneh/@3.834627,100.8432839,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5ad50eea8a13:0x843af5f59806037e!8m2!3d3.834627!4d100.8432839!16s%2Fg%2F1hc27lvbx?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Cheong Hua</td>
+                                        <td>17</td>
+                                        <td>182</td>
+                                        <td>7</td>
+                                        <td>03-32136260</td>
+                                        <td>BBC6030@moe.edu.my</td>
+                                        <td>Simpang 4, Bno, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/SJK+(C)+Cheong+Hua/@3.778971,100.8825361,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5b8c575f1c19:0x7b647f8a24a2f0b1!8m2!3d3.778971!4d100.8825361!16s%2Fg%2F121gjwc5?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Jenis Kebangsaan (Tamil) Ladang Sabak Bernam</td>
+                                        <td>14</td>
+                                        <td>137</td>
+                                        <td>6</td>
+                                        <td>03-32165191</td>
+                                        <td>BBD6040@moe.edu.my</td>
+                                        <td>Jalan Pejabat Haiwan, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/SJK(T)+Ladang+Sabak+Bernam/@3.755617,100.987164,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb6753456b4801:0x85b972c9b441953!8m2!3d3.755617!4d100.987164!16s%2Fg%2F11bt_jbgzv?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Jenis Kebangsaan (Tamil) Ladang Sungai Bernam</td>
+                                        <td>10</td>
+                                        <td>34</td>
+                                        <td>6</td>
+                                        <td>03-32145395</td>
+                                        <td>BBD6039@moe.edu.my</td>
+                                        <td>Ladang Sungai Bernam, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/SJKT+LADANG+SUNGAI+BERNAM/@3.8434673,100.7946067,11z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Tamil)+Ladang+Sungai+Bernam!3m6!1s0x31cb432e42628243:0xc5e5715a1f7dde2a!8m2!3d3.8434673!4d100.9346824!15sCjVTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKFRhbWlsKSBMYWRhbmcgU3VuZ2FpIEJlcm5hbZIBDnByaW1hcnlfc2Nob29s4AEA!16s%2Fg%2F11svnyzx6d?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Doktor Abdul Latiff</td>
+                                        <td>46</td>
+                                        <td>648</td>
+                                        <td>20</td>
+                                        <td>03-32161213</td>
+                                        <td>BBA6013@moe.edu.my</td>
+                                        <td>Jalan Raja Chulan, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Doktor+Abdul+Latiff/@3.7705388,100.98565,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Doktor+Abdul+Latiff!3m6!1s0x31cb675c234d5213:0x222e16956e47798!8m2!3d3.7705388!4d100.9878387!15sCiZTZWtvbGFoIEtlYmFuZ3NhYW4gRG9rdG9yIEFiZHVsIExhdGlmZpIBBnNjaG9vbOABAA!16s%2Fg%2F120_95vd?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Kg Baharu</td>
+                                        <td>15</td>
+                                        <td>117</td>
+                                        <td>7</td>
+                                        <td>03-32162033</td>
+                                        <td>bba6015@moe.edu.my</td>
+                                        <td>Jalan Haji Saie,Kampung Baharu, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sk+Kampung+Baharu/@4.0297478,100.8179663,10z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Kg+Baharu!3m6!1s0x31cb5da65eba7d3f:0x7aded07159d1edb5!8m2!3d3.7920112!4d100.948822!15sChxTZWtvbGFoIEtlYmFuZ3NhYW4gS2cgQmFoYXJ1kgEGc2Nob29s4AEA!16s%2Fg%2F11bt_h193f?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sungai Bendena</td>
+                                        <td>Sekolah Kebangsaan Lobok Pusing</td>
+                                        <td>13</td>
+                                        <td>100</td>
+                                        <td>6</td>
+                                        <td>03-32164810</td>
+                                        <td>BBA6012@moe.edu.my</td>
+                                        <td>Jln Masjid, Kg Lubok Pusing, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Lobok+Pusing/@3.7609311,101.0734429,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb640248e6728f:0x88c0a4dc1b8414a8!8m2!3d3.7609311!4d101.0734429!16s%2Fg%2F122fpwjf?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Panchang Pedena</td>
+                                        <td>20</td>
+                                        <td>232</td>
+                                        <td>7</td>
+                                        <td>03-32241576</td>
+                                        <td>BBA6004@moe.edu.my</td>
+                                        <td>Jalan Lama Kuala Selangor, 45300 Sungai Besar</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Panchang+Bedena/@3.6969037,100.9582531,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5fc076845f0b:0x50f004267c9b73ed!8m2!3d3.6969037!4d100.9582531!16s%2Fg%2F121xc_0x?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Parit 13</td>
+                                        <td>20</td>
+                                        <td>136</td>
+                                        <td>6</td>
+                                        <td>03-32246916</td>
+                                        <td>BBA6011@moe.edu.my</td>
+                                        <td>Jalan Parit 13 Ban 2 Sungai Nibong, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Parit+13/@3.6203349,101.0860485,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc9c3bbd54c435:0xed83e62b0f325b6a!8m2!3d3.6203349!4d101.0860485!16s%2Fg%2F12360cqj?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Kebangsaan Sungai Tengar</td>
+                                        <td>17</td>
+                                        <td>193</td>
+                                        <td>7</td>
+                                        <td>03-32138350</td>
+                                        <td>BBA6020@moe.edu.my</td>
+                                        <td>Kg Sg Tengar, 45100 Sungai Air Tawar</td>
+                                        <td>No Record</td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Tanjong Jawa</td>
+                                        <td>7</td>
+                                        <td>26</td>
+                                        <td>6</td>
+                                        <td>03-32148650</td>
+                                        <td>BBA6025@moe.edu.my</td>
+                                        <td>Jalan Dungun, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tanjong+Jawa/@3.8161901,100.9723496,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5d5d9fa922d5:0xa8576174e52a0251!8m2!3d3.8161901!4d100.9723496!16s%2Fg%2F120htlk5?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Sabak</td>
+                                        <td>Sekolah Kebangsaan Tebok Jawa</td>
+                                        <td>18</td>
+                                        <td>179</td>
+                                        <td>6</td>
+                                        <td>03-32163144</td>
+                                        <td>BBA6022@moe.edu.my</td>
+                                        <td>Jalan Tebok Jawa, Kg. Tebok Jawa, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tebok+Jawa/@3.781602,100.9121378,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5c69ef9ba79f:0x837dc70bb71fad2d!8m2!3d3.781602!4d100.9121378!16s%2Fg%2F120mc3f3?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Panchang Bendena</td>
+                                        <td>Sekolah Kebangsaan Tun Doktor Ismail</td>
+                                        <td>24</td>
+                                        <td>171</td>
+                                        <td>8</td>
+                                        <td>03-32162379</td>
+                                        <td>BBA6016@moe.edu.my</td>
+                                        <td>Tebuk Pulai, 45200 Sabak Bernam</td>
+                                        <td><a href="https://www.google.com/maps/place/SK+Tun+Dr+Ismail/@3.7278795,100.9785182,17z/data=!3m1!4b1!4m6!3m5!1s0x31cb5e2705e209d9:0xa1d1e85afc895c06!8m2!3d3.7278795!4d100.9785182!16s%2Fg%2F11bt_h9_2y?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Pasir Panjang</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Kian Sit</td>
+                                        <td>13</td>
+                                        <td>115</td>
+                                        <td>6</td>
+                                        <td>03-32411722</td>
+                                        <td>BBC6039@moe.edu.my</td>
+                                        <td>Lorong 3 Site A, 45400 Sekinchan</td>
+                                        <td><a href="https://www.google.com/maps/place/SJK+(Cina)+Kian+Sit/@3.526472,101.140925,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc9abda73c734b:0xab1022cb45703e2!8m2!3d3.526472!4d101.140925!16s%2Fg%2F1hc1vbbdm?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>B</th>
+                                        <td>Bagan Nakhoda Omar</td>
+                                        <td>Sekolah Jenis Kebangsaan (Cina) Phooi Min</td>
+                                        <td>4</td>
+                                        <td>26</td>
+                                        <td>6</td>
+                                        <td>03-32137387</td>
+                                        <td>bbc6037@moe.edu.my</td>
+                                        <td>Teluk Ru &amp; Beting Kepah, 45100 Sungai Air Tawar</td>
+                                        <td><a href="https://www.google.com/maps/place/SJK+(C)+Phooi+Min+%E5%9F%B9%E6%B0%91%E5%B0%8F%E5%AD%A6/@3.7906876,100.5519959,10z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Phooi+Min!3m6!1s0x31cb5a5a3f60b2bf:0x2ffe14bd633b7810!8m2!3d3.7906876!4d100.8321473!15sCilTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIFBob29pIE1pbpIBBnNjaG9vbOABAA!16s%2Fg%2F12307fws?entry=ttu" class='bx bx-current-location'></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                </div>
+                </div>
+             </div>
+           </section>
+        </body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+    <footer>
+        <p>&copy; 2024 Selangor-SIF (School Intelligent Finder) System. All rights reserved.</p>
+    </footer>
+</html>

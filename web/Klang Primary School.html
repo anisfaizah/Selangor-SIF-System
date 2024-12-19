@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selangor-SIF (School Intelligent Finder) System</title>
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/displayData.css" type="text/css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <header class="header">
+            <a href="#" class="logo"> Selangor-SIF System </a>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            
+            <nav class="navbar">
+                <a href="index.html" style="--i:0;" >Home</a>
+                <a href="about.html" style="--i:1;" >About</a>
+                <a href="dashboard.html" style="--i:2;" >Dashboard</a>
+                <a href="Contact Us.html" style="--i:4;" >Contact Us</a>
+            </nav>
+        </header>
+         <section>
+            <div class="layout-container">
+            <div class="inner-container">
+                <h2>Recommendation Klang Primary School</h2>
+                <br>
+                <div class="enter-options-options">
+                    <style>
+                        th {
+                            font-weight: bold;
+                        }
+                    </style>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Grade</th>
+                                <th>District</th>
+                                <th>School Name</th>
+                                <th>Total Teachers</th>
+                                <th>Total Students</th>
+                                <th>Total Class</th>
+                                <th>Phone No.</th>
+                                <th>E-mail</th>
+                                <th>Address</th>
+                                <th>Locations</th>
+                            </tr>
+                        </thead>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Taman Rashna</td>
+                                <td>110</td>
+                                <td>2514</td>
+                                <td>64</td>
+                                <td>03-3447912</td>
+                                <td>BBC0060@moe.edu.my</td>
+                                <td>Jalan Batu Tiga Lama, 41300 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Taman+Rashna/@3.0562744,101.4704821,16z/data=!4m10!1m2!2m1!1ssekolah+jenis+kebangsaan+taman+rashna!3m6!1s0x31cc5322103430d3:0xc061f847a58486cb!8m2!3d3.0543888!4d101.4732428!15sCiVzZWtvbGFoIGplbmlzIGtlYmFuZ3NhYW4gdGFtYW4gcmFzaG5hkgEGc2Nob29s4AEA!16s%2Fg%2F1tdz6xsb?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Pui Ying</td>
+                                <td>101</td>
+                                <td>2252</td>
+                                <td>58</td>
+                                <td>03-2911658</td>
+                                <td>BBC0052@moe.edu.my</td>
+                                <td>Batu 4, Jalan Kapar, 42100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Pui+Ying+%E5%9F%B9%E8%8B%B1%E5%9C%8B%E6%B0%91%E5%9E%8B%E8%8F%AF%E6%96%87%E5%B0%8F%E5%AD%B8/@3.0724611,101.4114298,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc54f4cb32c24b:0xd6804f842cfb6f8f!8m2!3d3.0724611!4d101.4114298!16s%2Fg%2F122h6_xr?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Abdul Samat</td>
+                                <td>65</td>
+                                <td>906</td>
+                                <td>34</td>
+                                <td>03-2509263</td>
+                                <td>BBA0029@moe.edu.my</td>
+                                <td>Batu 11, Jalan Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Abdul+Samat/@3.1379644,101.3716372,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5641842a3477:0x4dc73ee74e0d8880!8m2!3d3.1379644!4d101.3716372!16s%2Fg%2F1vq72c5t?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Bukit Kapar</td>
+                                <td>74</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>03-33922087</td>
+                                <td>BBA0011@moe.edu.my</td>
+                                <td>Jalan Setia Jaya, Kg Bukit Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Bukit+Kapar/@3.1670719,101.4238231,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc57305f12c381:0xe5cf7f18e583a7cd!8m2!3d3.1670719!4d101.4238231!16s%2Fg%2F123976xp?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Jalan Kebun</td>
+                                <td>52</td>
+                                <td>1085</td>
+                                <td>0</td>
+                                <td>03-51611993</td>
+                                <td>BBA0006@moe.edu.my</td>
+                                <td>Batu 7 1/2 Jalan Kebun, Seksyen 30, 40460 Shah Alam</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Jalan+Kebun/@2.977465,101.5131564,16z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Jalan+Kebun!3m6!1s0x31cdadf38d721511:0x65e4e06cb5a523e1!8m2!3d2.9730353!4d101.518641!15sCh5TZWtvbGFoIEtlYmFuZ3NhYW4gSmFsYW4gS2VidW6SAQ5wcmltYXJ5X3NjaG9vbOABAA!16s%2Fg%2F1216xf1k?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Kapar</td>
+                                <td>58</td>
+                                <td>1006</td>
+                                <td>30</td>
+                                <td>03-32508335</td>
+                                <td>BBA0010@moe.edu.my</td>
+                                <td>Pejabat Pos Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kapar/@3.1336097,101.342087,13z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Kapar!3m6!1s0x31cc565d83879119:0xce910910520a4529!8m2!3d3.1336097!4d101.3771059!15sChhTZWtvbGFoIEtlYmFuZ3NhYW4gS2FwYXKSARFlbGVtZW50YXJ5X3NjaG9vbOABAA!16s%2Fg%2F120mt4n6?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Klang</td>
+                                <td>59</td>
+                                <td>771</td>
+                                <td>31</td>
+                                <td>03-33712957</td>
+                                <td>BBA0001@moe.edu.my</td>
+                                <td>Jalan Dato&#39; Hamzah, 41000 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Klang/@3.0400632,101.4157529,13z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Klang!3m6!1s0x31cc534c0b62b98d:0x8bea6184a65e0e7!8m2!3d3.0400632!4d101.4507718!15sChhTZWtvbGFoIEtlYmFuZ3NhYW4gS2xhbmeSARFlbGVtZW50YXJ5X3NjaG9vbOABAA!16s%2Fg%2F1vzv15sp?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Methodist</td>
+                                <td>54</td>
+                                <td>997</td>
+                                <td>30</td>
+                                <td>03-31686535</td>
+                                <td>BBB0032@moe.edu.my</td>
+                                <td>Jalan Orkid, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Methodist+Pelabuhan+Klang/@3.0141138,101.3724528,13z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Methodist+jalan+orkid!3m6!1s0x31cdabec4ec21a13:0xf5277aa94d83b78e!8m2!3d3.0141138!4d101.4074717!15sCihTZWtvbGFoIEtlYmFuZ3NhYW4gTWV0aG9kaXN0IGphbGFuIG9ya2lkWioiKHNla29sYWgga2ViYW5nc2FhbiBtZXRob2Rpc3QgamFsYW4gb3JraWSSAQZzY2hvb2yaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUldjbkJ1YWtSM0VBReABAA!16s%2Fg%2F11kpslrhsk?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Pulau Indah</td>
+                                <td>32</td>
+                                <td>654</td>
+                                <td>0</td>
+                                <td>03-31012139</td>
+                                <td>BBA0013@moe.edu.my</td>
+                                <td>Jalan Sidang Sulaiman, Pulau Indah, 42920 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Pulau+Indah/@2.932094,101.3013725,14z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Pulau+Indah!3m6!1s0x31cd07131fb96ab3:0x5851e513f3061b97!8m2!3d2.932094!4d101.318882!15sCh5TZWtvbGFoIEtlYmFuZ3NhYW4gUHVsYXUgSW5kYWiSAQllZHVjYXRpb27gAQA!16s%2Fg%2F1tfx2dpv?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Sungai Binjai</td>
+                                <td>148</td>
+                                <td>3342</td>
+                                <td>83</td>
+                                <td>03-33921048</td>
+                                <td>BBA0012@moe.edu.my</td>
+                                <td>Batu 6, Pekan Meru, 41050 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Sungai+Binjai/@3.1371792,101.438832,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc51343b77d233:0x55de0f9bd6be9220!8m2!3d3.1371792!4d101.438832!16s%2Fm%2F0tkf2fy?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Sungai Serdang</td>
+                                <td>19</td>
+                                <td>302</td>
+                                <td>0</td>
+                                <td>03-32500545</td>
+                                <td>BBA0019@moe.edu.my</td>
+                                <td>Bt 13 1/2, Jalan Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Sungai+Serdang/@3.1494562,101.3278668,17z/data=!3m1!4b1!4m6!3m5!1s0x31ccf88eee815947:0x8985bc3d282cdf0a!8m2!3d3.1494562!4d101.3278668!16s%2Fg%2F120qqjzm?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Taman Sri Andalas</td>
+                                <td>98</td>
+                                <td>1951</td>
+                                <td>51</td>
+                                <td>03-33721713</td>
+                                <td>BBA0034@moe.edu.my</td>
+                                <td>Jalan Tun Dr. Ismail, Off Jalan Langat, 41200 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Taman+Sri+Andalas/@3.018358,101.4519195,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdacbe65ed8785:0x5b4bd4f9024ba2ca!8m2!3d3.018358!4d101.4519195!16s%2Fg%2F121vxpf8?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Telok Pulai</td>
+                                <td>72</td>
+                                <td>1506</td>
+                                <td>39</td>
+                                <td>03-33720516</td>
+                                <td>BBA0025@moe.edu.my</td>
+                                <td>Taman Bertek, 41100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Teluk+Pulai/@3.04626,101.4288001,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc54a60285854b:0x6d6219c512b7696c!8m2!3d3.04626!4d101.4288001!16s%2Fg%2F1vg6r7c9?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Tok Muda</td>
+                                <td>40</td>
+                                <td>551</td>
+                                <td>18</td>
+                                <td>03-32500395</td>
+                                <td>BBA0014@moe.edu.my</td>
+                                <td>Jln Kg Tok Muda, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tok+Muda/@3.1342265,101.3451848,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc561fa6157935:0x602329e631557f0a!8m2!3d3.1342265!4d101.3451848!16s%2Fg%2F121r6wz0?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Rendah (1) Simpang Lima</td>
+                                <td>50</td>
+                                <td>768</td>
+                                <td>24</td>
+                                <td>03-33715930</td>
+                                <td>No Record</td>
+                                <td>Persiaran Raja Muda Musa</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+%26+(2)+Simpang+Lima/@3.0305743,101.2979946,11z/data=!4m10!1m2!2m1!1sSekolah+Rendah+(1)+Simpang+Lima!3m6!1s0x31cdaca9428ccfb7:0xc65e690539d7908c!8m2!3d3.0305743!4d101.4380703!15sCh9TZWtvbGFoIFJlbmRhaCAoMSkgU2ltcGFuZyBMaW1hkgEGc2Nob29s4AEA!16s%2Fg%2F121cglsz?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Rendah (2) Simpang Lima</td>
+                                <td>43</td>
+                                <td>702</td>
+                                <td>21</td>
+                                <td>03-33711752</td>
+                                <td>No Record</td>
+                                <td>Persiaran Raja Muda Musa</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+%26+(2)+Simpang+Lima/@3.0305743,101.2979946,11z/data=!4m10!1m2!2m1!1sSekolah+Rendah+(1)+Simpang+Lima!3m6!1s0x31cdaca9428ccfb7:0xc65e690539d7908c!8m2!3d3.0305743!4d101.4380703!15sCh9TZWtvbGFoIFJlbmRhaCAoMSkgU2ltcGFuZyBMaW1hkgEGc2Nob29s4AEA!16s%2Fg%2F121cglsz?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan St Anne Convent</td>
+                                <td>24</td>
+                                <td>442</td>
+                                <td>12</td>
+                                <td>03-31688359</td>
+                                <td>BBB0039@moe.edu.my</td>
+                                <td>Persiaran Raja Muda Musa, Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+St+Anne&#39;s+Convent/@3.008807,101.4041443,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdab5079b490ed:0x1c5f3bda4d646f9e!8m2!3d3.008807!4d101.4041443!16s%2Fg%2F1pztl9y7w?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Batu Belah</td>
+                                <td>66</td>
+                                <td>1236</td>
+                                <td>33</td>
+                                <td>03-33415475</td>
+                                <td>BBA0007@moe.edu.my</td>
+                                <td>Jalan Rantau Panjang, 42100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Batu+Belah/@3.0710264,101.4429459,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc53798be325bf:0x322cd03fd889d605!8m2!3d3.0710264!4d101.4429459!16s%2Fg%2F12333m3f?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Bukit Kuda</td>
+                                <td>37</td>
+                                <td>490</td>
+                                <td>15</td>
+                                <td>03-33416115</td>
+                                <td>BBA0015@moe.edu.my</td>
+                                <td>Jalan Landasan, 41300 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Bukit+Kuda/@3.0459515,101.4610141,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc533758a702ad:0x2fbc653451dac4f8!8m2!3d3.0459515!4d101.4610141!16s%2Fg%2F11c2p86hhc?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Bukit Naga</td>
+                                <td>79</td>
+                                <td>1446</td>
+                                <td>41</td>
+                                <td>03-51616852</td>
+                                <td>BBA0005@moe.edu.my</td>
+                                <td>Batu 6, Kg. Bukit Naga, Seksyen 32, 40460 Shah Alam</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Bukit+Naga/@3.003207,101.5024022,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Bukit+Naga!3m6!1s0x31cdad7306876fab:0x2ff7f5b84a2cf25a!8m2!3d3.003207!4d101.5045909!15sCh1TZWtvbGFoIEtlYmFuZ3NhYW4gQnVraXQgTmFnYZIBEWVsZW1lbnRhcnlfc2Nob29s4AEA!16s%2Fg%2F1vtqsldq?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Convent (1)</td>
+                                <td>24</td>
+                                <td>443</td>
+                                <td>12</td>
+                                <td>03-33718669</td>
+                                <td>BBB0027@moe.edu.my</td>
+                                <td>112, Jalan Tengku Kelana, 41000 Klang</td>
+                                <td>No Record</td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Convent (2)</td>
+                                <td>25</td>
+                                <td>411</td>
+                                <td>12</td>
+                                <td>03-33713439</td>
+                                <td>BBB0028@moe.edu.my</td>
+                                <td>112, Jalan Tengku Kelana, 41000 Klang</td>
+                                <td>No Record</td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan (1) Jalan Meru</td>
+                                <td>31</td>
+                                <td>456</td>
+                                <td>14</td>
+                                <td>03-33415786</td>
+                                <td>BBB0030@moe.edu.my</td>
+                                <td>Jalan Meru, 41050 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+%26+(2)+Jalan+Meru/@3.0583413,101.4487859,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+(1)+Jalan+Meru!3m6!1s0x31cc536bd5a06045:0xe1e5fbb341d3ce73!8m2!3d3.0583413!4d101.4509746!15sCiFTZWtvbGFoIEtlYmFuZ3NhYW4gKDEpIEphbGFuIE1lcnWSAQZzY2hvb2zgAQA!16s%2Fg%2F121d6dll?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan (2) Jalan Meru</td>
+                                <td>27</td>
+                                <td>338</td>
+                                <td>12</td>
+                                <td>03-33415797</td>
+                                <td>BBB0031@moe.edu.my</td>
+                                <td>Jalan Meru, 41050 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+%26+(2)+Jalan+Meru/@3.0583413,101.4487859,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+(1)+Jalan+Meru!3m6!1s0x31cc536bd5a06045:0xe1e5fbb341d3ce73!8m2!3d3.0583413!4d101.4509746!15sCiFTZWtvbGFoIEtlYmFuZ3NhYW4gKDEpIEphbGFuIE1lcnWSAQZzY2hvb2zgAQA!16s%2Fg%2F121d6dll?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Kg Johan Setia</td>
+                                <td>64</td>
+                                <td>1263</td>
+                                <td>32</td>
+                                <td>03-51610625</td>
+                                <td>BBA0018@moe.edu.my</td>
+                                <td>Jalan Johan Setia Off Jalan Langat, 41200 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kampung+Johan+Setia/@2.9784507,101.4901283,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdadb78e4894ad:0xded36bbd301f08a9!8m2!3d2.9784507!4d101.4901283!16s%2Fg%2F1tl9k2dm?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Rendah Kebangsaan Kg Pendamaran</td>
+                                <td>42</td>
+                                <td>734</td>
+                                <td>20</td>
+                                <td>03-31688517</td>
+                                <td>No Record</td>
+                                <td>Kg Pendamar</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Kampung+Pendamar/@2.979265,101.4297532,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdab8b6d0b4837:0x552f39a05e363551!8m2!3d2.979265!4d101.4297532!16s%2Fg%2F11bx5pn0t5?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Meru</td>
+                                <td>77</td>
+                                <td>1396</td>
+                                <td>39</td>
+                                <td>03-33923910</td>
+                                <td>BBA0030@moe.edu.my</td>
+                                <td>Persiaran Hamzah Alang, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/SK+MERU/@3.1377285,101.338255,12z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Meru!3m6!1s0x31cc575ed4caabeb:0xde7944da92519d0f!8m2!3d3.1377285!4d101.4082928!15sChdTZWtvbGFoIEtlYmFuZ3NhYW4gTWVydZIBBnNjaG9vbOABAA!16s%2Fg%2F11rmx3j94d?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Rendah Kebangsaan Pelabuhan Utara Bandar Sultan Sulaiman</td>
+                                <td>83</td>
+                                <td>1728</td>
+                                <td>49</td>
+                                <td>03-31765366</td>
+                                <td>No Record</td>
+                                <td>Bandar Sultan Sulaiman, Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Pelabuhan+Utara/@3.0320615,101.379861,17z/data=!4m6!3m5!1s0x31cdaad1800c0e31:0xfd80936f2f5f775!8m2!3d3.0320615!4d101.379861!16s%2Fg%2F122dygb4?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Rendah Kebangsaan Pendamaran Jaya</td>
+                                <td>63</td>
+                                <td>1175</td>
+                                <td>32</td>
+                                <td>03-31673389</td>
+                                <td>No Record</td>
+                                <td>Jln 12, Pandamaran Jaya</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Pendamaran+Jaya/@3.0062049,101.4220946,17z/data=!4m10!1m2!2m1!1sSekolah+Rendah+Kebangsaan+Pendamaran+Jaya!3m6!1s0x31cdab7aa5929123:0xc4008e6a64e66ac2!8m2!3d3.0060797!4d101.4231644!15sCilTZWtvbGFoIFJlbmRhaCBLZWJhbmdzYWFuIFBlbmRhbWFyYW4gSmF5YZIBBnNjaG9vbOABAA!16s%2Fg%2F120w8dvf?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Rantau Panjang</td>
+                                <td>134</td>
+                                <td>3009</td>
+                                <td>78</td>
+                                <td>03-32911582</td>
+                                <td>BBA0008@moe.edu.my</td>
+                                <td>Jalan Genting, Rantau Panjang, 42100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Rantau+Panjang/@3.067585,101.2712555,11z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Rantau+Panjang!3m6!1s0x31cc54f2d27b0739:0x7b80bce45565aeae!8m2!3d3.067585!4d101.4113312!15sCiFTZWtvbGFoIEtlYmFuZ3NhYW4gUmFudGF1IFBhbmphbmeSARFlbGVtZW50YXJ5X3NjaG9vbOABAA!16s%2Fg%2F1tffg8gb?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Sementa</td>
+                                <td>90</td>
+                                <td>1748</td>
+                                <td>48</td>
+                                <td>03-32911308</td>
+                                <td>BBA0009@moe.edu.my</td>
+                                <td>Batu 6, Jalan Kapar, 42100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Sementa/@3.093663,101.3842471,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc55b44d29acbb:0x26909a5ae2a7036!8m2!3d3.093663!4d101.3842471!16s%2Fg%2F1210xs8v?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sek olah Rendah Kebangsaan Sri Menegun</td>
+                                <td>52</td>
+                                <td>1100</td>
+                                <td>0</td>
+                                <td>No Record</td>
+                                <td>No Record</td>
+                                <td>Batu 3 Jalan Kota Raja 41000 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Telok+Menegon/@3.0310931,101.4755116,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdacd424eeb48f:0xdb730ac009a82fb6!8m2!3d3.0310931!4d101.4755116!16s%2Fg%2F122hzth1?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Kebangsaan Taman Klang Utama</td>
+                                <td>73</td>
+                                <td>967</td>
+                                <td>35</td>
+                                <td>03-32918212</td>
+                                <td>BBA0032@moe.edu.my</td>
+                                <td>Jalan Haji Sirat, 42100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Klang+Utama/@3.084078,101.4219518,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5464d628d279:0x8c03f41cbdda04e2!8m2!3d3.084078!4d101.4219518!16s%2Fg%2F12338h6m?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Telok Gadong</td>
+                                <td>82</td>
+                                <td>1676</td>
+                                <td>0</td>
+                                <td>03-33713193</td>
+                                <td>BBA0002@moe.edu.my</td>
+                                <td>Jalan Yadi, 41250 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Telok+Gadong/@3.0387209,101.4196542,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc54b3a9d8426f:0x2c02ba8357190c0b!8m2!3d3.0387209!4d101.4196542!16s%2Fg%2F120yf22z?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Telok Gong</td>
+                                <td>65</td>
+                                <td>1206</td>
+                                <td>34</td>
+                                <td>03-31341231</td>
+                                <td>BBA0022@moe.edu.my</td>
+                                <td>Kg Nelayan, Telok Gong, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Telok+Gong/@2.9637079,101.3156105,12z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Telok+Gong!3m6!1s0x31cdaa2c61164177:0x2e41bb96d46c4ef2!8m2!3d2.9637079!4d101.3856483!15sCh1TZWtvbGFoIEtlYmFuZ3NhYW4gVGVsb2sgR29uZ1ofIh1zZWtvbGFoIGtlYmFuZ3NhYW4gdGVsb2sgZ29uZ5IBBnNjaG9vbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdGFFNVVSSE5CUlJBQuABAA!16s%2Fg%2F1ptyxmqnf?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Tengku Bendahara Azman (1)</td>
+                                <td>42</td>
+                                <td>351</td>
+                                <td>20</td>
+                                <td>03-31686648</td>
+                                <td>BBB0034@moe.edu.my</td>
+                                <td>Lorong Sabah, Pandamaran, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tengku+Bendahara+Azman+1/@3.0090825,101.4083227,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdab1257d6e9e7:0xc37d0ca6ba75464c!8m2!3d3.0090825!4d101.4083227!16s%2Fg%2F121bq5j7?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Tengku Bendahara Azman (2)</td>
+                                <td>27</td>
+                                <td>267</td>
+                                <td>14</td>
+                                <td>03-31687155</td>
+                                <td>BBB0035@moe.edu.my</td>
+                                <td>Lorong Sabah, Pandamaran, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Tengku+Bendahara+Azman+1/@3.0090825,101.4083227,17z/data=!4m6!3m5!1s0x31cdab1257d6e9e7:0xc37d0ca6ba75464c!8m2!3d3.0090825!4d101.4083227!16s%2Fg%2F121bq5j7?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Taman Klang Jaya</td>
+                                <td>85</td>
+                                <td>1318</td>
+                                <td>44</td>
+                                <td>03-33237837</td>
+                                <td>BBA0023@moe.edu.my</td>
+                                <td>Jalan Seruling 56, Off Jalan Langat, 41200 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SK+Taman+Klang+Jaya/@3.0038735,101.4502912,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdac8e8ff7e3d5:0xe09f8883ef952c07!8m2!3d3.0038735!4d101.4502912!16s%2Fg%2F122rd79m?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Kampung Idaman</td>
+                                <td>51</td>
+                                <td>1030</td>
+                                <td>28</td>
+                                <td>03-31681569</td>
+                                <td>BBA0031@moe.edu.my</td>
+                                <td>Jalan Idaman 17, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kampung+Idaman/@2.993057,101.4273026,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdab83eee5bd3d:0xc46f52cbeeb3e8b2!8m2!3d2.993057!4d101.4273026!16s%2Fg%2F122k0_66?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Kong Hoe</td>
+                                <td>58</td>
+                                <td>1623</td>
+                                <td>42</td>
+                                <td>03-33425729</td>
+                                <td>BBC0047@moe.edu.my</td>
+                                <td>54, Jalan Batu Tiga, 41300 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Kong+Hoe/@3.0473206,101.452401,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5346134eb1b5:0x44859be118722d8d!8m2!3d3.0473206!4d101.452401!16s%2Fg%2F1tngmsl_?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan (L) Methodist (ACS) Klang</td>
+                                <td>41</td>
+                                <td>789</td>
+                                <td>22</td>
+                                <td>03-33711571</td>
+                                <td>BBB0024@moe.edu.my</td>
+                                <td>Jalan Melawis, 41000 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+(L)+Methodist+(ACS)+Klang/@3.0431273,101.4383387,17z/data=!4m10!1m2!2m1!1sSekolah+Kebangsaan+Methodist+Acs!3m6!1s0x31cc5350d84eaad7:0x772b6d67c5385a46!8m2!3d3.0431273!4d101.4405274!15sCiBTZWtvbGFoIEtlYmFuZ3NhYW4gTWV0aG9kaXN0IEFjc5IBJWNvbWJpbmVkX3ByaW1hcnlfYW5kX3NlY29uZGFyeV9zY2hvb2zgAQA!16s%2Fg%2F11bc8c4yxy?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Pelabuhan Kelang</td>
+                                <td>48</td>
+                                <td>783</td>
+                                <td>24</td>
+                                <td>03-31686848</td>
+                                <td>BBA0003@moe.edu.my</td>
+                                <td>Jalan Sekolah, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Pelabuhan+Kelang/@3.0003057,101.400436,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdab0889cedfab:0x96c5eca6b1ec2873!8m2!3d3.0003057!4d101.400436!16s%2Fg%2F120_rvnq?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Kg Raja Uda</td>
+                                <td>53</td>
+                                <td>826</td>
+                                <td>24</td>
+                                <td>03-31685810</td>
+                                <td>BBA0016@moe.edu.my</td>
+                                <td>Jalan Kenanga, Kg Raja Uda, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Kampung+Raja+Uda/@3.01665,101.4094199,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdab1563ffa063:0xae7ff676b3855014!8m2!3d3.01665!4d101.4094199!16s%2Fg%2F1hc1k12pl?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Khe Beng</td>
+                                <td>58</td>
+                                <td>1550</td>
+                                <td>0</td>
+                                <td>No Record</td>
+                                <td>BBC0046@moe.edu.my</td>
+                                <td>Persiaran Kemuning Prima, Seksyen 32, 40460 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(C)+Khe+Beng,+Mutiara+Bukit+Kemuning,+40470+Shah+Alam,+Selangor/@3.017013,101.5282834,17z/data=!3m1!4b1!4m6!3m5!1s0x31cdb2a1b79993b3:0x825f51c5443f9a57!8m2!3d3.017013!4d101.5282834!16s%2Fg%2F1217y_9j?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Rendah Jenis Kebangsaan (Cina) Pendamaran Jaya (A)</td>
+                                <td>61</td>
+                                <td>1701</td>
+                                <td>42</td>
+                                <td>03-31686632</td>
+                                <td>No Record</td>
+                                <td>Jalan Besar Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SJK+(C)+Pandamaran+A/@3.0068245,101.408232,16z/data=!4m10!1m2!2m1!1sSekolah+Rendah+Jenis+Kebangsaan+(Cina)+Pendamaran+Jaya+(A)!3m6!1s0x31cdab72a26343d5:0xc98258b279fca4f!8m2!3d3.0068245!4d101.4126094!15sCjpTZWtvbGFoIFJlbmRhaCBKZW5pcyBLZWJhbmdzYWFuIChDaW5hKSBQZW5kYW1hcmFuIEpheWEgKEEpkgEGc2Nob29s4AEA!16s%2Fg%2F120l7qjr?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Rendah Jenis Kebangsaan (Cina)  Pendamaran Jaya (B)</td>
+                                <td>89</td>
+                                <td>2590</td>
+                                <td>63</td>
+                                <td>03-31686784</td>
+                                <td>No Record</td>
+                                <td>KG Pandamaran Jaya</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Pandamaran+B/@3.0116289,101.4186212,17z/data=!4m10!1m2!2m1!1sSekolah+Rendah+Jenis+Kebangsaan+(Cina)++Pendamaran+Jaya+(B)!3m6!1s0x31cdab72a26343d5:0x6bb4faec7fb2f5bf!8m2!3d3.0116289!4d101.4208099!15sCjtTZWtvbGFoIFJlbmRhaCBKZW5pcyBLZWJhbmdzYWFuIChDaW5hKSAgUGVuZGFtYXJhbiBKYXlhIChCKZIBBnNjaG9vbOABAA!16s%2Fg%2F1tdvm7cl?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Tshing Nian</td>
+                                <td>53</td>
+                                <td>1414</td>
+                                <td>32</td>
+                                <td>03-31686293</td>
+                                <td>BBC0056@moe.edu.my</td>
+                                <td>25, Jalan Tengku Badar, 42000 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SJK+(C)+Tshing+Nan/@3.0056376,101.3953817,17z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Tshing+Nian!3m6!1s0x31cdab055832c8bb:0x1b7fabf4bf1942b1!8m2!3d3.0056376!4d101.3975704!15sCitTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIFRzaGluZyBOaWFukgEGc2Nob29s4AEA!16s%2Fg%2F120v110z?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Tiong Hua Kok Bin</td>
+                                <td>27</td>
+                                <td>364</td>
+                                <td>13</td>
+                                <td>03-33922394</td>
+                                <td>BBC0055@moe.edu.my</td>
+                                <td>Pekan Meru, Batu 6, Off Jalan Meru, 41050 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Tiong+Hua+Kok+Bin+National+Type+Primary+School+(Chinese)/@3.135465,101.439058,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5135e5b2af8b:0xdb43ba78745709f9!8m2!3d3.135465!4d101.439058!16s%2Fg%2F1213_bmv?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Tamil) Methodist</td>
+                                <td>68</td>
+                                <td>1275</td>
+                                <td>38</td>
+                                <td>03-32500424</td>
+                                <td>BBD0079@moe.edu.my</td>
+                                <td>Jalan Bukit Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Tamil)+Methodist/@3.14315,100.2587915,8z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Tamil)+Methodist!3m6!1s0x31cc565afb1c501b:0xb46c2cc9578bf780!8m2!3d3.14315!4d101.379397!15sCipTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKFRhbWlsKSBNZXRob2Rpc3SSARFlbGVtZW50YXJ5X3NjaG9vbOABAA!16s%2Fg%2F1tsjb517?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Jenis Kebangsaan (Tamil) Persiaran Raja Muda Musa</td>
+                                <td>68</td>
+                                <td>1256</td>
+                                <td>39</td>
+                                <td>03-31686678</td>
+                                <td>BBD0077@moe.edu.my</td>
+                                <td>Jalan Persiaran Raja Muda Musa, 42000 Pelabuhan Klang</td>
+                                <td>No Record</td>
+                            </tr>
+                            <tr>
+                                <th>A</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Soo Jin</td>
+                                <td>54</td>
+                                <td>1147</td>
+                                <td>30</td>
+                                <td>03-32508072</td>
+                                <td>BBC0054@moe.edu.my</td>
+                                <td>Pekan Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Soo+Jin+%7C+%E6%A0%91%E4%BA%BA%E5%9B%BD%E6%B0%91%E5%9E%8B%E5%B0%8F%E5%AD%A6/@3.139827,101.3736251,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5643857932b3:0xc168e478dc1b9fed!8m2!3d3.139827!4d101.3736251!16s%2Fg%2F1tdrtv79?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Sin Bin</td>
+                                <td>13</td>
+                                <td>116</td>
+                                <td>6</td>
+                                <td>03-33631334</td>
+                                <td>BBC0053@moe.edu.my</td>
+                                <td>Kg Sungai Lima</td>
+                                <td><a href="https://www.google.com/maps/place/SJK(C)+Sin+Bin/@3.040414,101.2071826,12z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Sin+Bin!3m6!1s0x31ccfe2054131aab:0x29b289200856e6cb!8m2!3d3.040414!4d101.2772204!15sCidTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIFNpbiBCaW6SARFlbGVtZW50YXJ5X3NjaG9vbOABAA!16s%2Fg%2F121fl14j?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Kebangsaan Taman Gembira</td>
+                                <td>21</td>
+                                <td>354</td>
+                                <td>0</td>
+                                <td>03-33701469</td>
+                                <td>BBA0035@moe.edu.my</td>
+                                <td>Jalan Hilir Dua, Telok Gadong, 41100 Klang</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Taman+Gembira+,Klang,+Selangor/@3.03689,101.42946,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc54ab48f75ac3:0xa517a430729e471!8m2!3d3.03689!4d101.42946!16s%2Fg%2F121r_922?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Rendah Jalan Batu Tiga</td>
+                                <td>31</td>
+                                <td>434</td>
+                                <td>14</td>
+                                <td>03-33417768</td>
+                                <td>No Record</td>
+                                <td>Jalan Pekan Baru Taman Eng Ann</td>
+                                <td><a href="https://www.google.com/maps/place/SK+(1)+Jalan+Batu+Tiga/@3.0567417,101.4608519,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5315bf954741:0xd52edd20515d5319!8m2!3d3.0567417!4d101.4608519!16s%2Fg%2F1221sdn4?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Kelang</td>
+                                <td>Sekolah Jenis Kebangsaan (Tamil) Jalan Tepi Sungai</td>
+                                <td>11</td>
+                                <td>149</td>
+                                <td>6</td>
+                                <td>03-33724173</td>
+                                <td>BBD0076@moe.edu.my</td>
+                                <td>Jalan Tepi Sungai Off Jalan Lembaga Bandaran, 41000 Klang</td>
+                                <td>No Record</td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Ying Wah</td>
+                                <td>17</td>
+                                <td>278</td>
+                                <td>9</td>
+                                <td>03-32508195</td>
+                                <td>BBC0058@moe.edu.my</td>
+                                <td>Batu 12, Jalan Kapar, 42200 Kapar</td>
+                                <td><a href="https://www.google.com/maps/place/Sekolah+Jenis+Kebangsaan+(Cina)+Ying+Wah+%E8%8B%B1%E5%8D%8E%E5%9B%BD%E6%B0%91%E5%9E%8B%E5%8D%8E%E6%96%87%E5%B0%8F%E5%AD%A6/@3.145369,101.3506794,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc5625933bf335:0x46e1e2c7d2bb39d8!8m2!3d3.145369!4d101.3506794!16s%2Fg%2F1tczbd9n?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                            <tr>
+                                <th>B</th>
+                                <td>Kapar</td>
+                                <td>Sekolah Jenis Kebangsaan (Cina) Keng Chee</td>
+                                <td>14</td>
+                                <td>121</td>
+                                <td>6</td>
+                                <td>03-31104208</td>
+                                <td>BBC0045@moe.edu.my</td>
+                                <td>Bagan Teochew, Pulau Ketam, 42940 Pelabuhan Klang</td>
+                                <td><a href="https://www.google.com/maps/place/SJK(C)+Keng+Chee/@3.0194642,101.1048019,11z/data=!4m10!1m2!2m1!1sSekolah+Jenis+Kebangsaan+(Cina)+Keng+Chee!3m6!1s0x31cd02206dff1ca7:0x2e0ae612a6c17a43!8m2!3d3.0194642!4d101.2448776!15sCilTZWtvbGFoIEplbmlzIEtlYmFuZ3NhYW4gKENpbmEpIEtlbmcgQ2hlZZIBBnNjaG9vbOABAA!16s%2Fg%2F1ptvr89l0?entry=ttu" class='bx bx-current-location'></a></td>
+                            </tr>
+                        </table>
+                </div>
+                </div>
+             </div>
+           </section>
+        </body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+    <footer>
+        <p>&copy; 2024 Selangor-SIF (School Intelligent Finder) System. All rights reserved.</p>
+    </footer>
+</html>
